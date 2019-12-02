@@ -1,0 +1,1 @@
+export default () => "Yeah, ES6 modules !";

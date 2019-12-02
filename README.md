@@ -12,4 +12,5 @@ Suivez le guide en ces terres inconnues.
 - [Sous le capot du navigateur](hardware/README.md)
 - [Node.js en questions](node/README.md)
 - [Fondamentaux Node.js](node/fundamentals.md)
+- [Node.js ES6](node/es6.md)
 - [Un serveur HTTP express](express/README.md)

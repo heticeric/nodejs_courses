@@ -1,0 +1,19 @@
+{
+  "name": "05-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eric Priou <erixtekila@gmail.com> (http://ericpriou.net/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "nodemon": "^2.0.1"
+  }
+}
