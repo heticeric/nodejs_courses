@@ -86,6 +86,35 @@ app.use( '/students', students );
 
 ### Paramétres nommés
 
+Il est possible de récupérer des valeurs depuis l'*URL*.
+
+```js
+app.get
+(
+    '/student/:id'
+    , (req, res) => console.log( req.params.id )
+)
+```
+
+Plusieurs paramètres nommés peuvent ainsi être obtenu, via l'oject `params`.
+
+Les expression régulières sont égakemennt permises :
+
+```js
+app.get
+(
+    /post/
+    , (req, res) => { /* */ }
+)
+```
+
+Cette expresssion régulière capturera 
+- `/post`
+- `/post/first`
+- `/thepost`
+- `/posting/something`
+
+
 ## Vues
 
 Un exemple avec `react`.
